@@ -31,6 +31,7 @@ The music and the sound of school playground chatter were downloaded from free a
 ## Authors
 
 CDX Game Development Kit by Bil Simser and Michael Rich
+
 EasyWindows class by Rafael A. Costa
 
 Game code and assets by Rafael Pagani Savastano (me).
