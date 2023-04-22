@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="cdx" />
+		<Option pch_mode="2" />
+		<Option compiler="msvc10" />
+		<Build>
+			<Target title="Win32 Release">
+				<Option output="../../lib/cdx" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Release" />
+				<Option type="2" />
+				<Option compiler="msvc10" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="/D_MBCS" />
+					<Add option="/O2" />
+					<Add option="/W3" />
+					<Add option="/DNDEBUG" />
+					<Add option="/DNODIRECTMUSIC" />
+					<Add option="/D_CRT_SECURE_NO_WARNINGS" />
+					<Add directory="../cdx3d" />
+				</Compiler>
+			</Target>
+			<Target title="Win32 Debug">
+				<Option output="../../lib/cdxd" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Debug" />
+				<Option type="2" />
+				<Option compiler="msvc10" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="/D_MBCS" />
+					<Add option="/RTC1" />
+					<Add option="/Od" />
+					<Add option="/W3" />
+					<Add option="/D_DEBUG" />
+					<Add option="/DNODIRECTMUSIC" />
+					<Add directory="../cdx3d" />
+				</Compiler>
+			</Target>
+			<Target title="Win32 DX3 Debug">
+				<Option output="../../lib/cdxd" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="DebugDX3" />
+				<Option type="2" />
+				<Option compiler="msvc10" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="/D_MBCS" />
+					<Add option="/RTC1" />
+					<Add option="/Od" />
+					<Add option="/W3" />
+					<Add option="/D_DEBUG" />
+					<Add option="/DNTDX3" />
+					<Add directory="../cdx3d" />
+				</Compiler>
+			</Target>
+			<Target title="Win32 DX3 Release">
+				<Option output="../../lib/cdx" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="ReleaseDX3" />
+				<Option type="2" />
+				<Option compiler="msvc10" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="/D_MBCS" />
+					<Add option="/O2" />
+					<Add option="/W3" />
+					<Add option="/DNDEBUG" />
+					<Add option="/DNTDX3" />
+					<Add option="/D_CRT_SECURE_NO_WARNINGS" />
+					<Add directory="../cdx3d" />
+				</Compiler>
+			</Target>
+			<Target title="Win32 DX3 Alpha Release">
+				<Option type="4" />
+				<Option compiler="msvc10" />
+				<Compiler>
+					<Add option="/Gt0" />
+					<Add option="/W3" />
+					<Add option="/GX" />
+					<Add option="/O2" />
+					<Add option="/DWIN32" />
+					<Add option="/DNDEBUG" />
+					<Add option="/D_WINDOWS" />
+					<Add option="/DNTDX3" />
+					<Add option="/YX" />
+					<Add option="/FD" />
+				</Compiler>
+			</Target>
+			<Target title="Win32 DX3 Alpha Debug">
+				<Option type="4" />
+				<Option compiler="msvc10" />
+				<Compiler>
+					<Add option="/Gt0" />
+					<Add option="/W3" />
+					<Add option="/GX" />
+					<Add option="/Od" />
+					<Add option="/DWIN32" />
+					<Add option="/D_DEBUG" />
+					<Add option="/D_WINDOWS" />
+					<Add option="/DNTDX3" />
+					<Add option="/YX" />
+					<Add option="/FD" />
+					<Add option="/ZI" />
+					<Add option="/GZ" />
+					<Add option="/DCDX_LOG" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="/EHsc" />
+			<Add option="/FS" />
+			<Add option="/DWIN32" />
+			<Add option="/D_WIN32" />
+			<Add option="/D_LIB" />
+			<Add directory="../../include" />
+		</Compiler>
+		<Unit filename="../../include/cdx.h" />
+		<Unit filename="../../include/cdxclist.h" />
+		<Unit filename="../../include/cdxfile.h" />
+		<Unit filename="../../include/cdximage.h" />
+		<Unit filename="../../include/cdximagebase.h" />
+		<Unit filename="../../include/cdximagebmp.h" />
+		<Unit filename="../../include/cdximagejpg.h" />
+		<Unit filename="../../include/cdximagepcx.h" />
+		<Unit filename="../../include/cdximagepsd.h" />
+		<Unit filename="../../include/cdximagetga.h" />
+		<Unit filename="../../include/cdxinput.h" />
+		<Unit filename="../../include/cdxlayer.h" />
+		<Unit filename="../../include/cdxlog.h" />
+		<Unit filename="../../include/cdxmap.h" />
+		<Unit filename="../../include/cdxmidi.h" />
+		<Unit filename="../../include/cdxmusic.h" />
+		<Unit filename="../../include/cdxresource.h" />
+		<Unit filename="../../include/cdxscreen.h" />
+		<Unit filename="../../include/cdxsound.h" />
+		<Unit filename="../../include/cdxsprite.h" />
+		<Unit filename="../../include/cdxstructs.h" />
+		<Unit filename="../../include/cdxsurface.h" />
+		<Unit filename="../../include/cdxtemplate.h" />
+		<Unit filename="../../include/cdxtile.h" />
+		<Unit filename="../../include/cdxtypes.h" />
+		<Unit filename="cdxfile.cpp" />
+		<Unit filename="cdximage.cpp" />
+		<Unit filename="cdximagebase.cpp" />
+		<Unit filename="cdximagebmp.cpp" />
+		<Unit filename="cdximagejpg.cpp" />
+		<Unit filename="cdximagepcx.cpp" />
+		<Unit filename="cdximagepsd.cpp" />
+		<Unit filename="cdximagetga.cpp" />
+		<Unit filename="cdxinput.cpp" />
+		<Unit filename="cdxiso.cpp" />
+		<Unit filename="cdxlayer.cpp" />
+		<Unit filename="cdxlog.cpp" />
+		<Unit filename="cdxmap.cpp" />
+		<Unit filename="cdxmapcell.cpp" />
+		<Unit filename="cdxmidi.cpp" />
+		<Unit filename="cdxmusic.cpp" />
+		<Unit filename="cdxmusiccd.cpp" />
+		<Unit filename="cdxresource.cpp" />
+		<Unit filename="cdxscreen.cpp" />
+		<Unit filename="cdxsound.cpp" />
+		<Unit filename="cdxsoundbuffer.cpp" />
+		<Unit filename="cdxsprite.cpp" />
+		<Unit filename="cdxspritelist.cpp" />
+		<Unit filename="cdxsurface.cpp" />
+		<Unit filename="cdxtemplate.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="cdxtile.cpp" />
+		<Unit filename="ddutils.cpp" />
+		<Unit filename="dxerrors.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

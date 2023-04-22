@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="cdx3d" />
+		<Option pch_mode="2" />
+		<Option compiler="msvc10" />
+		<Build>
+			<Target title="Win32 Release">
+				<Option output="E:/D/Meus Documentos/Gamemaking/CURSO PUC/Material/CDXTresMarias/CDX/src/cdx3d/Release/cdx3d" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Release" />
+				<Option type="2" />
+				<Option compiler="msvc10" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="/D_MBCS" />
+					<Add option="/O2" />
+					<Add option="/W3" />
+					<Add option="/EHsc" />
+					<Add option="/FS" />
+					<Add option="/DWIN32" />
+					<Add option="/DNDEBUG" />
+					<Add option="/D_LIB" />
+					<Add directory="../cdx" />
+				</Compiler>
+			</Target>
+			<Target title="Win32 Debug">
+				<Option output="E:/D/Meus Documentos/Gamemaking/CURSO PUC/Material/CDXTresMarias/CDX/src/cdx3d/Debug/cdx3d" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Debug" />
+				<Option type="2" />
+				<Option compiler="msvc10" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="/D_MBCS" />
+					<Add option="/Gm" />
+					<Add option="/Od" />
+					<Add option="/W3" />
+					<Add option="/ZI" />
+					<Add option="/EHsc" />
+					<Add option="/FS" />
+					<Add option="/GZ" />
+					<Add option="/DWIN32" />
+					<Add option="/D_DEBUG" />
+					<Add option="/D_LIB" />
+					<Add option="/DCDX_LOG" />
+					<Add directory="../cdx" />
+				</Compiler>
+			</Target>
+			<Target title="Win32 DX3 Debug">
+				<Option output="E:/D/Meus Documentos/Gamemaking/CURSO PUC/Material/CDXTresMarias/CDX/src/cdx3d/DebugDX3/cdx3d" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="DebugDX3" />
+				<Option type="2" />
+				<Option compiler="msvc10" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="/D_MBCS" />
+					<Add option="/Od" />
+					<Add option="/W3" />
+					<Add option="/ZI" />
+					<Add option="/EHsc" />
+					<Add option="/FS" />
+					<Add option="/GZ" />
+					<Add option="/DWIN32" />
+					<Add option="/D_DEBUG" />
+					<Add option="/D_LIB" />
+					<Add option="/DNTDX3" />
+					<Add option="/DCDX_LOG" />
+					<Add directory="../cdx" />
+				</Compiler>
+			</Target>
+			<Target title="Win32 DX3 Release">
+				<Option output="E:/D/Meus Documentos/Gamemaking/CURSO PUC/Material/CDXTresMarias/CDX/src/cdx3d/ReleaseDX3/cdx3d" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="ReleaseDX3" />
+				<Option type="2" />
+				<Option compiler="msvc10" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="/D_MBCS" />
+					<Add option="/O2" />
+					<Add option="/W3" />
+					<Add option="/EHsc" />
+					<Add option="/FS" />
+					<Add option="/DWIN32" />
+					<Add option="/DNDEBUG" />
+					<Add option="/D_LIB" />
+					<Add option="/DNTDX3" />
+					<Add directory="../cdx" />
+				</Compiler>
+			</Target>
+			<Target title="Win32 DX3 Alpha Debug">
+				<Option type="4" />
+				<Option compiler="msvc10" />
+				<Compiler>
+					<Add option="/Gt0" />
+					<Add option="/W3" />
+					<Add option="/GX" />
+					<Add option="/Od" />
+					<Add option="/DWIN32" />
+					<Add option="/D_DEBUG" />
+					<Add option="/D_WINDOWS" />
+					<Add option="/DNTDX3" />
+					<Add option="/DCDX_LOG" />
+					<Add option="/YX" />
+					<Add option="/FD" />
+					<Add option="/ZI" />
+					<Add option="/GZ" />
+					<Add directory="../cdx" />
+				</Compiler>
+			</Target>
+			<Target title="Win32 DX3 Alpha Release">
+				<Option type="4" />
+				<Option compiler="msvc10" />
+				<Compiler>
+					<Add option="/O2" />
+					<Add option="/W3" />
+					<Add option="/Gt0" />
+					<Add option="/GX" />
+					<Add option="/YX" />
+					<Add option="/FD" />
+					<Add option="/DWIN32" />
+					<Add option="/DNDEBUG" />
+					<Add option="/D_WINDOWS" />
+					<Add option="/DNTDX3" />
+					<Add directory="../cdx" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add directory="../../include" />
+		</Compiler>
+		<Unit filename="../../include/cdx3d.h" />
+		<Unit filename="../../include/cdx3dcamera.h" />
+		<Unit filename="../../include/cdx3dengine.h" />
+		<Unit filename="../../include/cdx3dframe.h" />
+		<Unit filename="../../include/cdx3dlight.h" />
+		<Unit filename="../../include/cdx3dscene.h" />
+		<Unit filename="../../include/cdx3dshape.h" />
+		<Unit filename="../../include/cdxdebug.h" />
+		<Unit filename="../cdx/cdxdebug.cpp" />
+		<Unit filename="camera.cpp" />
+		<Unit filename="d3derrors.cpp" />
+		<Unit filename="engine.cpp" />
+		<Unit filename="frame.cpp" />
+		<Unit filename="light.cpp" />
+		<Unit filename="scene.cpp" />
+		<Unit filename="shape.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

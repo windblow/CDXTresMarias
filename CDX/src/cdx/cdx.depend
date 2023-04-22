@@ -1,0 +1,236 @@
+# depslib dependency file v1.0
+1680032747 source:e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\src\cdx\cdxlog.cpp
+	<windows.h>
+	<stdio.h>
+	<time.h>
+	"cdx.h"
+	"cdxscreen.h"
+	"cdxsurface.h"
+	"cdxlog.h"
+
+1679975680 source:e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\src\cdx\cdxfile.cpp
+	"cdxfile.h"
+
+966881802 e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\include\cdxfile.h
+	"cdx.h"
+
+1680133293 e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\include\cdx.h
+	<windows.h>
+	<windowsx.h>
+	<mmsystem.h>
+	<stdio.h>
+	<ddraw.h>
+	<dinput.h>
+	<dsound.h>
+	"cdxtypes.h"
+	"cdxlog.h"
+	"cdxstructs.h"
+	"cdxsurface.h"
+	"cdxscreen.h"
+	"cdxfile.h"
+	"cdxsurface.h"
+	"cdxlayer.h"
+	"cdxtile.h"
+	"cdxmap.h"
+	"cdxsprite.h"
+	"cdxsound.h"
+	"cdxmusic.h"
+	"cdxinput.h"
+	"cdxresource.h"
+	"cdxpacker.h"
+	"cdxmidi.h"
+	"cdximage.h"
+
+956409222 e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\include\cdxtypes.h
+
+1680031806 e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\include\cdxlog.h
+	"cdxscreen.h"
+
+967133486 e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\include\cdxscreen.h
+	"cdxclist.h"
+
+982831032 e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\include\cdxclist.h
+
+956409124 e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\include\cdxstructs.h
+
+1679975977 e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\include\cdxsurface.h
+	"cdxscreen.h"
+	"cdxresource.h"
+	"cdxfile.h"
+
+956409058 e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\include\cdxresource.h
+
+958239840 e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\include\cdxlayer.h
+	"cdxsurface.h"
+
+968477950 e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\include\cdxtile.h
+	"cdxsurface.h"
+
+982429468 e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\include\cdxmap.h
+	"cdxtile.h"
+
+979209530 e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\include\cdxsprite.h
+	"cdxtile.h"
+	"cdxmap.h"
+
+966882062 e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\include\cdxsound.h
+
+956409044 e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\include\cdxmusic.h
+
+980524516 e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\include\cdxinput.h
+
+1680023398 e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\include\cdxpacker.h
+
+1680057736 e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\include\cdxmidi.h
+	<wchar.h>
+	<direct.h>
+	<dsound.h>
+	<dmksctrl.h>
+	<dmusici.h>
+	<dmusicc.h>
+	<dmusics.h>
+	"cdx.h"
+	"cdxsound.h"
+
+967567348 e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\include\cdximage.h
+	"cdxfile.h"
+	"cdximagebase.h"
+
+957189986 e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\include\cdximagebase.h
+	"cdx.h"
+	"cdxfile.h"
+
+980263030 source:e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\src\cdx\cdximage.cpp
+	"CDXImage.h"
+	"CDXImageTGA.h"
+	"CDXImagePSD.h"
+	"CDXImageBMP.h"
+	"CDXImageJPG.h"
+	"CDXImagePCX.h"
+
+957189986 e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\include\cdximagetga.h
+	"cdximagebase.h"
+
+957189986 e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\include\cdximagepsd.h
+	"cdximagebase.h"
+
+957189986 e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\include\cdximagebmp.h
+	"CDXImageBase.h"
+
+980263030 e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\include\cdximagejpg.h
+	"CDXImageBase.h"
+	<mmreg.h>
+
+957189986 e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\include\cdximagepcx.h
+	"CDXImageBase.h"
+
+957189986 source:e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\src\cdx\cdximagebase.cpp
+	"CDXImageBase.h"
+
+968617368 source:e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\src\cdx\cdximagebmp.cpp
+	"cdxdebug.h"
+	"CDXImageBMP.h"
+
+1680033830 e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\include\cdxdebug.h
+	<assert.h>
+
+980263030 source:e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\src\cdx\cdximagejpg.cpp
+	"CDXImageJPG.h"
+	<ocidl.h>
+	<olectl.h>
+
+957189986 source:e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\src\cdx\cdximagepcx.cpp
+	"cdxdebug.h"
+	"CDXImagePCX.h"
+
+957990566 source:e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\src\cdx\cdximagepsd.cpp
+	"CDXImagePSD.h"
+
+1679975631 source:e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\src\cdx\cdximagetga.cpp
+	"cdximagetga.h"
+
+1680135384 source:e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\src\cdx\cdxinput.cpp
+	"CDX.h"
+	"cdxinput.h"
+
+960221000 source:e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\src\cdx\cdxiso.cpp
+	"CDX.h"
+	"cdxmap.h"
+
+958239840 source:e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\src\cdx\cdxlayer.cpp
+	"CDX.h"
+	"cdxlayer.h"
+
+982265454 source:e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\src\cdx\cdxmap.cpp
+	"CDX.h"
+	"cdxmap.h"
+	"cdxsprite.h"
+
+956409040 source:e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\src\cdx\cdxmapcell.cpp
+	"CDX.h"
+	"cdxmap.h"
+
+1680058033 source:e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\src\cdx\cdxmidi.cpp
+	"cdxmidi.h"
+
+1679977828 source:e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\src\cdx\cdxmusic.cpp
+	"CDX.h"
+	"cdxmusic.h"
+
+956409048 source:e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\src\cdx\cdxmusiccd.cpp
+	"CDX.h"
+	"cdxmusic.h"
+
+1680031983 source:e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\src\cdx\cdxresource.cpp
+	"CDX.h"
+	"cdxresource.h"
+	<fcntl.h>
+	<io.h>
+	<sys/stat.h>
+	<crtdbg.h>
+
+1001154924 source:e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\src\cdx\cdxscreen.cpp
+	"CDX.h"
+	"cdxscreen.h"
+	"cdxsurface.h"
+
+956409090 source:e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\src\cdx\cdxsound.cpp
+	"CDX.h"
+	"cdxsound.h"
+
+966882088 source:e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\src\cdx\cdxsoundbuffer.cpp
+	"cdx.h"
+	"cdxsound.h"
+	<mmreg.h>
+	<msacm.h>
+
+958160882 source:e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\src\cdx\cdxsprite.cpp
+	"CDX.h"
+	"cdxsprite.h"
+
+957990566 source:e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\src\cdx\cdxspritelist.cpp
+	"CDX.h"
+	"cdxsprite.h"
+
+968426990 source:e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\src\cdx\cdxsurface.cpp
+	"CDX.h"
+	"cdxsurface.h"
+	"cdximage.h"
+	<math.h>
+	<assert.h>
+
+968477950 source:e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\src\cdx\cdxtile.cpp
+	"CDX.h"
+	"cdxmap.h"
+
+995936240 source:e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\src\cdx\ddutils.cpp
+	"CDX.h"
+	"cdxscreen.h"
+	"cdxsurface.h"
+
+1679978797 source:e:\d\meus documentos\gamemaking\curso puc\material\cdxtresmarias\cdx\src\cdx\dxerrors.cpp
+	"CDX.h"
+	<d3d.h>
+	"cdxscreen.h"
+	<stdarg.h>
+
